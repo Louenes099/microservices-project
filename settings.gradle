@@ -1,0 +1,8 @@
+include 'utils'
+include 'api'
+include ':microservices:review-service'
+include ':microservices:recommendation-service'
+include ':microservices:product-composite-service'
+include ':microservices:product-service'
+
+

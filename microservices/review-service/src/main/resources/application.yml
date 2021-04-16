@@ -1,0 +1,10 @@
+server.port: 7003
+server.error.include-message: always
+logging:
+  level:
+    root: INFO
+    com.albayrak: DEBUG
+
+---
+spring.profiles: docker
+server.port: 8080
