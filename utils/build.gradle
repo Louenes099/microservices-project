@@ -13,7 +13,7 @@ plugins {
     id "io.spring.dependency-management" version "1.0.9.RELEASE"
 }
 apply plugin: 'java'
-group = 'com.albayrak.microservices.utils'
+group = 'com.islam.microservices.utils'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 repositories {

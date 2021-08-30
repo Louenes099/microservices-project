@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.albayrak.microservices.composite.product'
+group = 'com.islam.microservices.composite.product'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -26,4 +26,7 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
 }

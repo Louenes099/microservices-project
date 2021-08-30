@@ -9,8 +9,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=product-service \
---package-name=com.albayrak.microservices.core.product \
---groupId=com.albayrak.microservices.core.product \
+--package-name=com.islam.microservices.core.product \
+--groupId=com.islam.microservices.core.product \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 product-service
@@ -21,8 +21,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=review-service \
---package-name=com.albayrak.microservices.core.review \
---groupId=com.albayrak.microservices.core.review \
+--package-name=com.islam.microservices.core.review \
+--groupId=com.islam.microservices.core.review \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 review-service
@@ -33,8 +33,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=recommendation-service \
---package-name=com.albayrak.microservices.core.recommendation \
---groupId=com.albayrak.microservices.core.recommendation \
+--package-name=com.islam.microservices.core.recommendation \
+--groupId=com.islam.microservices.core.recommendation \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 recommendation-service
@@ -45,8 +45,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=product-composite-service \
---package-name=com.albayrak.microservices.composite.product \
---groupId=com.albayrak.microservices.composite.product \
+--package-name=com.islam.microservices.composite.product \
+--groupId=com.islam.microservices.composite.product \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 product-composite-service
